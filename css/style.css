@@ -3,18 +3,18 @@
 }
 
 :root {
-   --bg-color: #009fe3;
-   --text-color: #ffffffec;
-   --header-text-color: #b2b0b0;
-   --card-izq: #f39;
-   --card-der: rgb(203, 103, 3);
-}
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+   --bg-color: #fff;
+   --text-color: #666666;
+   --menu-hover: #ebd9b7;
+
+   }
 
 body {
     margin: 0;
     padding: 0;
-   
+   background-color: var(--bg-color);
+   font-family: "Lobster",cursive;
+   color: var(--text-color);
 }
 p{
     text-align: center;
@@ -61,8 +61,8 @@ header{
     padding: 5px;
  }
  nav li:hover{
-    background-color: var(--header-text-color);
-    color: var(--text-color);
+    background-color: var(--text-color);
+    color: var(--bg-color);
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
@@ -76,17 +76,14 @@ header{
     width: 88%;
     height: 525px;
     float: right;
-    
  }
  section p{
     font-size: .9rem;
  }
  .block-arriba{
     display: flex;
-  
     width: 100%;
     height: 50%;
-    
     margin: 2px;
     border: 1px solid (var(--card-izq));
 }
@@ -95,8 +92,9 @@ header{
     border-radius: 8px;
     border: 1px solid #6a6767;
     margin: 2px;
+   text-align: center;
+
   }
-  
 .block-box-arriba-flex-grow{
    width: 40%;
    flex-grow: 1;
@@ -104,17 +102,14 @@ header{
    border: 1px solid #6a6767;
    margin: 2px;
 }
-   .block-box-arriba-flex-grow p{ 
+.block-box-arriba-flex-grow p{ 
    font-size: .7rem;
-  
 }
 .block-box-arriba img{
     width: 85%;
     height: 50%;
     border-radius: 8%;
     margin: 25px 40px;
-    
-
  }
  .block-box-arriba-flex-grow img{
     width: 85%;
@@ -123,16 +118,12 @@ header{
     margin: 25px 40px;
  }
  .block-abajo{
-   
-   
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 50%;
     margin: 2px;
-
-    
  }
  .block-box-abajo{
     width: 33%;
@@ -140,6 +131,7 @@ header{
     border-radius: 8%;
     border: 1px solid #6a6767;
     margin: 5px;
+    text-align: center;
  }
  .block-box-abajo img{
     width: 85%;
@@ -188,13 +180,13 @@ header{
  }
  .footer-logos img{
     height: 50px;
-    margin: 2px;
+    margin: 5px;
     padding: 1px;
     float: right;
     border-radius: 25px;
  }
  .footer-logos img:hover{
-    width: 15%;
+    width: 20%;
     height: 15%;
  }
 
