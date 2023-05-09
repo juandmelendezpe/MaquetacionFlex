@@ -48,6 +48,10 @@ header{
     float: left;
     display: flex;
  }
+nav ul{
+padding:1px;
+border: 1px solid black;
+}
  nav ul li{
     margin: 0;
     padding: 1px;
